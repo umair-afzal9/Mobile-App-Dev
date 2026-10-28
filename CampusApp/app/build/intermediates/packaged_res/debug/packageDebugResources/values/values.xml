@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#FFFFFF</color>
+    <color name="app_text">#212121</color>
+    <color name="card_bg">#E8EAF6</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary">#3F51B5</color>
+    <string name="app_name">Campus App</string>
+    <string name="confirm_hint">Confirm Password</string>
+    <string name="courses">Courses</string>
+    <string name="create_account">Create Account</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="email_hint">Email</string>
+    <string name="err_email">Enter a valid email</string>
+    <string name="err_empty">This field is required</string>
+    <string name="err_login">Wrong email or password</string>
+    <string name="err_match">Passwords do not match</string>
+    <string name="err_not_found">Email not found</string>
+    <string name="err_pass_len">Password must be at least 6 characters</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="msg_recovery">Recovery link sent (simulated)</string>
+    <string name="msg_registered">Account created. Please login.</string>
+    <string name="msg_reset_done">Password changed successfully</string>
+    <string name="name_hint">Full Name</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="notifications">Notifications</string>
+    <string name="password_hint">Password</string>
+    <string name="profile">Profile</string>
+    <string name="register">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="schedule">Schedule</string>
+    <string name="send_recovery">Send Recovery Link</string>
+    <string name="tap_continue">Tap to continue</string>
+    <string name="welcome">Welcome to Campus App</string>
+    <style name="Theme.CommonScreens" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:textColorPrimary">@color/app_text</item>
+    </style>
+</resources>
